@@ -1,0 +1,114 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #FF6F61; /* Coral color for a vibrant look */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.intro {
+    background-color: #FFEB3B; /* Bright yellow background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nainital-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hobbies {
+    background-color: #FFC107; /* Amber background for hobbies section */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hobbies p {
+    margin-bottom: 10px;
+}
+
+.spotify-link {
+    color: #1DB954; /* Spotify green */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.spotify-link i {
+    margin-right: 8px;
+}
+
+.spotify-link:hover {
+    text-decoration: underline;
+}
+
+.interest-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.interest-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info, .education {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .education h2 {
+    color: #FF6F61; /* Coral color */
+}
+
+a {
+    color: #FF6F61; /* Coral color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color:
